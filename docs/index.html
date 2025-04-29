@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Evenimente Ursit</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background: linear-gradient(to bottom, #2e026d, #000);
+      color: white;
+    }
+    h1, h2, h3 {
+      font-family: 'Great Vibes', cursive;
+    }
+    .fade-in {
+      animation: fadeIn 2s ease-in-out;
+    }
+    @keyframes fadeIn {
+      0% { opacity: 0; transform: translateY(20px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body class="text-white">
+
+<!-- Hero Section -->
+<section class="text-center py-20 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1605379399642-e7e21c5c0f52?auto=format&fit=crop&w=1600&q=80');">
+  <div class="bg-black bg-opacity-60 p-10 rounded-xl inline-block fade-in">
+    <h1 class="text-5xl md:text-6xl text-yellow-300 font-bold mb-4">Evenimente Ursit</h1>
+    <p class="text-xl">Un eveniment magic, cu tradiții și mister</p>
+    <a href="#pachete" class="mt-6 inline-block bg-yellow-400 text-black px-6 py-3 rounded-full font-bold hover:bg-yellow-500 transition">Vezi Pachetele</a>
+  </div>
+</section>
+
+<!-- Despre eveniment -->
+<section class="py-16 px-6 md:px-20 fade-in">
+  <h2 class="text-4xl text-center text-yellow-300 mb-6">Despre Eveniment</h2>
+  <p class="max-w-3xl mx-auto text-center text-lg leading-relaxed">
+    Ursitul Denisei este o experiență unică ce aduce la viață tradițiile românești într-o atmosferă de basm. 
+    Cele trei ursitoare bune și una rea îți oferă o incursiune în destin, prin povești, simboluri și mister. 
+    Decoruri fantastice, ritualuri magice și fumigene colorate se îmbină pentru a crea o seară de neuitat.
+  </p>
+</section>
+
+<!-- Pachete -->
+<section id="pachete" class="p-10 fade-in">
+  <div class="max-w-6xl mx-auto text-center">
+    <h2 class="text-4xl font-bold mb-10 text-yellow-300">🌟 Pachete Promoționale</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+      <!-- General -->
+      <div class="bg-purple-800 rounded-2xl p-6 shadow-xl border border-purple-500 hover:scale-105 transition">
+        <h3 class="text-2xl font-semibold mb-4 text-white">✨ General</h3>
+        <ul class="text-left space-y-2">
+          <li>🔮 4 ursitoare (3 bune și 1 rea)</li>
+          <li>🕰️ 15 minute ursit</li>
+          <li>📸 Poze la final</li>
+        </ul>
+        <div class="mt-4 text-xl font-bold text-yellow-300">800 lei</div>
+      </div>
+
+      <!-- Premium -->
+      <div class="bg-purple-800 rounded-2xl p-6 shadow-xl border border-yellow-500 hover:scale-105 transition">
+        <h3 class="text-2xl font-semibold mb-4 text-white">💫 Premium</h3>
+        <ul class="text-left space-y-2">
+          <li>🎭 Include Pachetul General</li>
+          <li>🎈 Decor cu baloane (fată/băiat)</li>
+          <li>🕰️ 20 minute ursit</li>
+          <li>🌫️ Fumigene colorate</li>
+          <li>🎟️ Voucher 50 lei la următorul eveniment (valabil 6 luni)</li>
+        </ul>
+        <div class="mt-4 text-xl font-bold text-yellow-300">1000 lei</div>
+      </div>
+
+      <!-- Legendar -->
+      <div class="bg-purple-800 rounded-2xl p-6 shadow-xl border border-pink-500 hover:scale-105 transition">
+        <h3 class="text-2xl font-semibold mb-4 text-white">🌕 Legendar</h3>
+        <ul class="text-left space-y-2">
+          <li>👑 Include Pachetul General</li>
+          <li>🎈 Decor cu baloane (fată/băiat)</li>
+          <li>🌫️ Fumigene colorate</li>
+          <li>🕰️ 30 minute ursit</li>
+          <li>👕 Tricouri personalizate cu fața și numele copilului</li>
+        </ul>
+        <div class="mt-4 text-xl font-bold text-yellow-300">1500 lei</div>
+      </div>
+
+      <!-- La Alegere -->
+      <div class="bg-purple-800 rounded-2xl p-6 shadow-xl border border-green-500 hover:scale-105 transition md:col-span-2 lg:col-span-1">
+        <h3 class="text-2xl font-semibold mb-4 text-white">🎁 La Alegere</h3>
+        <ul class="text-left space-y-2">
+          <li>🎟️ Voucher 50 lei la un botez</li>
+          <li>🗓️ Valabil 6 luni</li>
+        </ul>
+        <div class="mt-4 text-xl font-bold text-yellow-300">Disponibil separat</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="py-16 px-6 md:px-20 fade-in">
+  <h2 class="text-4xl text-center text-yellow-300 mb-6">📞 Contact</h2>
+  <div class="max-w-xl mx-auto text-center text-lg">
+    <p class="mb-4">Pentru rezervări și informații suplimentare, ne puteți contacta:</p>
+    <p class="font-bold">Manager: Căruntu Denisa</p>
+    <p>Telefon: <a href="tel:0785676441" class="text-yellow-400 underline">0785 676 441</a></p>
+    <p>WhatsApp: <a href="https://wa.me/40785676441" class="text-yellow-400 underline">0785 676 441</a></p>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="text-center py-6 bg-black bg-opacity-70">
+  <p class="text-sm">&copy; 2025 Evenimente Ursit. Toate drepturile rezervate. Site creat pentru Denisa.</p>
+</footer>
+
+</body>
+</html>
